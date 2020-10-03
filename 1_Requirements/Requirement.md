@@ -8,3 +8,5 @@ The three farmers Moe, Larry, and Curly are working on a comman goal ie. Plantin
 2. Using the semaphore to synchronize the work.
 3. Limit for the unfilled holes that is permitted (MAX).
 4. Efficient rolling out of shovel between the Larry and Curley.
+
+file:///home/user/Downloads/rsz_img-20200927-wa0002.jpg
