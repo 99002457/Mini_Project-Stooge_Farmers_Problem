@@ -1,23 +1,34 @@
-name: Build
+name: Build-Gtest
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
+ 
 
     steps:
     - uses: actions/checkout@v2
-    - name: configure
-      run: ./configure
+    - name: Insatll gtest
+      run: sudo apt-get install libgtest-dev
+    - name: g
+      run: sudo apt-get install cmake
+    - name: Cmake Gtest
+      run: |
+            cd /usr/src/gtest
+            sudo cmake CMakeLists.txt
+            sudo make
+            sudo cp *.a /usr/lib
+            sudo ln -s /usr/lib/libgtest.a /usr/local/lib/libgtest.a && sudo ln -s /usr/lib/libgtest_main.a /usr/local/lib/libgtest_main.a
+    - name: Configure
+      run: mkdir build && cd build  && cmake -DCMAKE_CXX_FLAGS="-Werror" ..
+    - name: Build
+      run:  cmake --build build
+    - name: Test
+      run: cd build && ctest
     - name: make
       run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
