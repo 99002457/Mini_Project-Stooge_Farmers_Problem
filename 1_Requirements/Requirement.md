@@ -1,4 +1,4 @@
-# Stooge_Farmer_Problem
+# Stooge_Farmers_Problem
 
 The three farmers Moe, Larry, and Curly are working on a comman goal ie. Planting the seeds in there farm. Larry digs the hole. Moe  plant seeds. Curly fills the hole that was digged before b Larry. Only one shovel that is shared between the Larry and Curly.There is ambiguty in usage of shovel and the speed and work priortize. If Larry wroks faster ,Moe and Curly works slower end of the day there will be many unplanted holes. Similarly if Moe works faster he has to wait until the Larry digs the hole.
 
