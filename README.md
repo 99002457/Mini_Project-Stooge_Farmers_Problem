@@ -1,6 +1,5 @@
 # Mini_Project-Stooge_Farmers_Problem
 
-
 ![Build](https://github.com/99002457/Mini_Project-Stooge_Farmers_Problem/workflows/Build/badge.svg)
 ![.github/workflows/Gtest.yml](https://github.com/99002457/Mini_Project-Stooge_Farmers_Problem/workflows/.github/workflows/Gtest.yml/badge.svg)
 ![cppcheck-action](https://github.com/99002457/Mini_Project-Stooge_Farmers_Problem/workflows/cppcheck-action/badge.svg) 
@@ -11,7 +10,7 @@
 1.[Codacy](https://www.codacy.com/)
 
 ## GitHub Actions
-1.Build using Make for CI
-2.Unit tests with Cunit
-3.Static code analysis using cppcheck
+1.Build using Make for CI__
+2.Unit tests with Cunit__
+3.Static code analysis using cppcheck__
 4.Dynamic Code analysis using Valgrind
