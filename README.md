@@ -8,7 +8,7 @@
 *[Codacy](https://www.codacy.com/)
 
 ## GitHub Actions
-*Build using Make for CI
-*Unit tests with Cunit
-*Static code analysis using cppcheck
-*Dynamic Code analysis using Valgrind
+1.Build using Make for CI
+2.Unit tests with Cunit
+3.Static code analysis using cppcheck
+4.Dynamic Code analysis using Valgrind
