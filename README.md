@@ -10,7 +10,7 @@
 1.[Codacy](https://www.codacy.com/)
 
 ## GitHub Actions
-1.Build using Make for CI__
-2.Unit tests with Cunit__
-3.Static code analysis using cppcheck__
+1.Build using Make for CI\
+2.Unit tests with Cunit\
+3.Static code analysis using cppcheck\
 4.Dynamic Code analysis using Valgrind
