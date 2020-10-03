@@ -1,7 +1,6 @@
 # Mini_Project-Stooge_Farmers_Problem
 
 |Build|Google Test|CppCheck|Valgrind|Codacy|
-|:--:|:--:|:--:|:--:|:--:|
 ![Build](https://github.com/99002457/Mini_Project-Stooge_Farmers_Problem/workflows/Build/badge.svg)
 ![.github/workflows/Gtest.yml](https://github.com/99002457/Mini_Project-Stooge_Farmers_Problem/workflows/.github/workflows/Gtest.yml/badge.svg) 
 ![cppcheck-action](https://github.com/99002457/Mini_Project-Stooge_Farmers_Problem/workflows/cppcheck-action/badge.svg) 
