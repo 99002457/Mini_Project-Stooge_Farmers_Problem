@@ -1,0 +1,23 @@
+name: Valgrind
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: apt install dependency
+      run: |
+        sudo apt-get -y install valgrind
+    - name: make test
+      run: |
+        make
+        make out
+        valgrind ./a.out
