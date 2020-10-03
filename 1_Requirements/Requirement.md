@@ -10,4 +10,4 @@ The three farmers Moe, Larry, and Curly are working on a comman goal ie. Plantin
 4. Efficient rolling out of shovel between the Larry and Curley.
 
 
-![alt text](https://github.com/99002457/Mini_Project-Stooge_Farmers_Problem/blob/[branch]/1_Requirements/image.jpg?raw=true)
+![alt text](https://github.com/99002457/Mini_Project-Stooge_Farmers_Problem/blob/master/1_Requirements/image.jpg?raw=true)
