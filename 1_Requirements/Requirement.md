@@ -9,5 +9,5 @@ The three farmers Moe, Larry, and Curly are working on a comman goal ie. Plantin
 3. Limit for the unfilled holes that is permitted (MAX).
 4. Efficient rolling out of shovel between the Larry and Curley.
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/99002457/Mini_Project-Stooge_Farmers_Problem/blob/main/1_Requirements/image.jpg)
 ![alt text](https://github.com/99002457/Mini_Project-Stooge_Farmers_Problem/blob/master/1_Requirements/image.jpg?raw=true)
