@@ -1,22 +1,30 @@
+#include <iostream>
+#include <semaphore.h>
+#include <pthread.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <fcntl.h>
 #ifndef FARMER_H_INCLUDED
 #define FARMER_H_INCLUDED
-#include <iostream>
+#define MAX 8
 static int holesEmpty;
 static int holesPlanted;
-static int Shovel;
+static double CoverCropCost;
 using namespace std;
-
-class Farmer
-{
+extern sem_t F1_shovel;
+extern sem_t F3_shovel;
+extern sem_t F1_work;
+extern sem_t F2_work;
+extern sem_t F3_work;
+extern pthread_mutex_t mutex;
+class Farmer {
     int Farmer_Id;
     string Farmer_work;
     double income;
     double savings;
-    double CoverCropCost;
-
-public:
+  public:
     Farmer();
-    Farmer(int,string,double,double,double);
+    Farmer(int,const string&,double,double);
     //Farmer(Farmer&);
     virtual void UpdateCoverCropCost()=0;
     virtual void UpdateIncome()=0;

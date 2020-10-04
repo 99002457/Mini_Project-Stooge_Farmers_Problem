@@ -1,19 +1,18 @@
+#include "Farmer.h"
 #ifndef FARMER_2_H_INCLUDED
 #define FARMER_2_H_INCLUDED
-#include "Farmer.h"
-class Farmer_2:public Farmer
-{
+class Farmer_2:public Farmer {
     string Farmer_name;
     int No_of_plants;
-public:
+  public:
     Farmer_2();
-    Farmer_2(int,string,double,double,double,string,int);
-    void UpdateCoverCropCost();
+    Farmer_2(int,const string&,double,double,const string&,int);
+    void UpdateCoverCropCost() override;
     void UpdateCoverCropCost(int );
-    void UpdateIncome();
-    void UpdateSavings();
-    void Display();
-    int Dowork();
+    void UpdateIncome() override;
+    void UpdateSavings() override;
+    void Display() override;
+    int Dowork()override;
     int BuyPlants(int);
 };
 

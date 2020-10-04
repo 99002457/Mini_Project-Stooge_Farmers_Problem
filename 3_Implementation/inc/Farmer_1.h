@@ -1,18 +1,17 @@
+#include "Farmer.h"
 #ifndef FARMER_1_H_INCLUDED
 #define FARMER_1_H_INCLUDED
-#include "Farmer.h"
-class Farmer_1:public Farmer
-{
+class Farmer_1:public Farmer {
     string Farmer_name;
     bool hasShovel;
-public:
+  public:
     Farmer_1();
-    Farmer_1(int,string,double,double,double,string,bool);
-    void UpdateCoverCropCost();
-    void UpdateIncome();
-    void UpdateSavings();
-    void Display();
-    int Dowork();
+    Farmer_1(int,const string&,double,double,const string&,bool);
+    void UpdateCoverCropCost() override;
+    void UpdateIncome() override;
+    void UpdateSavings() override;
+    void Display() override;
+    int Dowork() override;
     bool passShovel();
 };
 
