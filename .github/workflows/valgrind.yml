@@ -19,5 +19,4 @@ jobs:
     - name: make test
       run: |
         make
-        make out
         valgrind ./a.out
