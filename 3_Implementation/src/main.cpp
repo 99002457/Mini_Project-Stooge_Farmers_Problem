@@ -1,6 +1,6 @@
-#include "Farmer_1.h"
-#include "Farmer_2.h"
-#include "Farmer_3.h"
+#include "../inc/Farmer_1.h"
+#include "../inc/Farmer_2.h"
+#include "../inc/Farmer_3.h"
 #include<iostream>
 
 sem_t F1_shovel;

@@ -1,4 +1,4 @@
-#include "Farmer_2.h"
+#include "../inc/Farmer_2.h"
 #include<iostream>
 
 Farmer_2::Farmer_2(int id,const string& w,double in,double sav,const string &name,int sh):Farmer(id,w,in,sav),Farmer_name(name),No_of_plants(sh) {}

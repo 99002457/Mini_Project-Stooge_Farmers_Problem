@@ -1,4 +1,4 @@
-#include "Farmer.h"
+#include "../inc/Farmer.h"
 
 
 void Farmer::setCoverCropCost(double cost) {

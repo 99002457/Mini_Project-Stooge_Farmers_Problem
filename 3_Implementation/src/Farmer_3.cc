@@ -1,4 +1,4 @@
-#include "Farmer_3.h"
+#include "../inc/Farmer_3.h"
 #include <iostream>
 
 using namespace std;

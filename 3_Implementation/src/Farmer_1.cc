@@ -1,4 +1,4 @@
-#include "Farmer_1.h"
+#include "../inc/Farmer_1.h"
 
 Farmer_1::Farmer_1(int id,const string& w,double in,double sav,const string& name,bool sh):Farmer(id,w,in,sav),Farmer_name(name),hasShovel(sh) {}
 Farmer_1::Farmer_1():Farmer(0,"",0.0,0.0),Farmer_name(""),hasShovel(false) {}
