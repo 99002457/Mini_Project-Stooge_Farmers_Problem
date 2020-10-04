@@ -4,9 +4,9 @@ The three farmers Moe, Larry, and Curly are working on a comman goal ie. Plantin
 
 ## Requirement ID : 99002457_1
 
-1.Using the threads to carry out three persons task simultaneously.
-2.Using the semaphore to synchronize the work.
-3.Limit for the unfilled holes that is permitted (MAX).
-4.Efficient rolling out of shovel between the Larry and Curley.
+1.Using the threads to carry out three persons task simultaneously.\
+2.Using the semaphore to synchronize the work.\
+3.Limit for the unfilled holes that is permitted (MAX).\
+4.Efficient rolling out of shovel between the Larry and Curley.\
 
 ![alt text](https://github.com/99002457/Mini_Project-Stooge_Farmers_Problem/blob/main/1_Requirements/image.jpg)
