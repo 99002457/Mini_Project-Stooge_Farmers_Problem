@@ -40,7 +40,6 @@ class Farmer {
     double getSavings();
     int getholesEmpty();
     int getholesPlanted();
-    int getFarmer_Id();
     string getFarmer_work();
     virtual int Dowork()=0;
 };
