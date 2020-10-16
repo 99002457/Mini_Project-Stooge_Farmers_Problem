@@ -38,6 +38,7 @@ class Farmer {
     double getCoverCropCost();
     double getIncome();
     double getSavings();
+    int getFarmer_Id();
     int getholesEmpty();
     int getholesPlanted();
     string getFarmer_work();
