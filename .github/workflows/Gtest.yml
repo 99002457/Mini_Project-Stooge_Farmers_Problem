@@ -1,4 +1,4 @@
-name: Build-Gtest
+name: Gtest
 
 on:
   push:
